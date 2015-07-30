@@ -1,9 +1,8 @@
-class Travel
+class France_Travel
   attr_reader = :determine_location
   
   def initialize(params)
     @results = params
-    determine_location
     @paris = {:city => "Paris"}
     @perouges = {:city => "Perouges"}
   end
@@ -25,5 +24,6 @@ class Travel
       return {:city => "Annecy"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
       return {:city => "Saint Veran"}
+    end
    end
 end
