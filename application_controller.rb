@@ -8,8 +8,11 @@ class MyApp < Sinatra::Base
   end
   
   post '/country' do
-    @country = params[:country]
-    erb :country
+    if params[:country] == "usa"
+      erb :quiz_us
+    else
+      erb :quiz_france
+    end
   end
 
 end
