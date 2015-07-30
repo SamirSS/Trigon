@@ -1,0 +1,53 @@
+html {
+  background: url(/images/gray_city.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+select {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrap_the_wrapper {
+  text-align: center;
+  margin: 20px;
+}
+ 
+.wrap_the_wrapper:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; 
+}
+ 
+.wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 15px;
+}
+
+#logo {
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+}
+
+hr {
+	display: block;
+	background-color: #AAA;
+	height: 1px;
+	margin: 50px auto;
+	width: 200px;
+	border-style: none;
+}
