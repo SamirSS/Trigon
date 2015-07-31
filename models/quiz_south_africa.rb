@@ -20,7 +20,7 @@ class South_Africa_Travel
         return {:city => "Paternoster"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "nemo"
       return {:city => "Matjiesfontein"}
-    else @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
+    elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "cat"
       return {:city => "Dullstroom"}
     end
    end

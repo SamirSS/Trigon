@@ -22,7 +22,7 @@ class France_Travel
       @perouges
     elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "nemo"
       return {:city => "Annecy"}
-    else @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
+    elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "cat"
       return {:city => "Bonneval-sur-arc"}
     end
    end

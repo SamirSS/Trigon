@@ -20,7 +20,7 @@ class China_Travel
       return {:city => "Manzhouli"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "nemo"
       return {:city => "Dunhuang"}
-    else @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
+    elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "cat"
       return {:city => "Dali"}
     end
   end

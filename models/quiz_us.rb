@@ -20,7 +20,7 @@ class US_Travel
       return {:city => "Rialto"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "nemo"
       return {:city => "Castine"}
-    else @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
+    elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "cat"
       return {:city => "Fairbanks"}
     end
    end
