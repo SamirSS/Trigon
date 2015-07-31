@@ -8,6 +8,30 @@ html {
 
 select {
   font-family: 'Roboto Condensed', sans-serif;
+  -webkit-appearance: none;  
+  -moz-appearance: none;  
+  border: 0 !important;  
+  color: #000;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 7px;
+  width: 45%;
+  cursor: pointer;
+}
+
+input {
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-appearance: none;  
+  -moz-appearance: none;  
+  border: 0 !important;  
+  color: #000;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 2px;
+  width: 15%;
+  cursor: pointer;
 }
 
 .wrap_the_wrapper {
