@@ -1,0 +1,70 @@
+html {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+	background: transparent url(/images/city-night.jpg) no-repeat top center fixed;
+	background-size: cover;
+	color: #fff;
+	font-size: 64px;
+	font-weight: 200;
+	height: 400px;
+	line-height: 400px;
+	margin-bottom: 93px;
+	text-align: center;
+	width: 100%;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.quiz {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+img {
+  height: 30%;
+}
+
+#logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color: black;
+}
+
+hr {
+	display: block;
+	background-color: #AAA;
+	height: 1px;
+	margin: 50px auto;
+	width: 200px;
+	border-style: none;
+}
+
+@media screen and (max-width: 640px) {
+	h3 {
+		height: 320px;
+		line-height: 320px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	h3 {
+		height: 200px;
+		line-height: 200px;
+	}
+}

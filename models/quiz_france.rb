@@ -13,17 +13,17 @@ class France_Travel
     elsif @results[:environment] == "busy" && @results[:preference] == "warm" && @results[:water] == "cat"
       @paris
     elsif @results[:environment] == "busy" && @results[:preference] == "cool" && @results[:water] == "nemo"
-      @paris
+      return {:city => "Nice"}
     elsif @results[:environment] == "busy" && @results[:preference] == "cool" && @results[:water] == "cat"
-      return {:city => "Lyon"}
+      return {:city => "Toulouse"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
-      @perouges
+      return {:city => "Piana"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "cat"
       @perouges
     elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "nemo"
       return {:city => "Annecy"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
-      return {:city => "Saint Veran"}
+      return {:city => "Bonneval-sur-arc"}
     end
    end
 end

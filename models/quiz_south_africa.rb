@@ -1,4 +1,4 @@
-class US_Travel
+class South_Africa_Travel
   attr_reader = :determine_location
   
   def initialize(params)
@@ -7,21 +7,21 @@ class US_Travel
   
   def determine_location 
     if @results[:environment] == "busy" && @results[:preference] == "warm" && @results[:water] == "nemo"
-      return {:city => "Orlando"}
+      return {:city => "Durban"}
     elsif @results[:environment] == "busy" && @results[:preference] == "warm" && @results[:water] == "cat"
-      return {:city => "Phoenix"}
+      return {:city => "Pretoria"}
     elsif @results[:environment] == "busy" && @results[:preference] == "cool" && @results[:water] == "nemo"
-      return {:city => "Boston"}
+        return {:city => "Soweto"}
     elsif @results[:environment] == "busy" && @results[:preference] == "cool" && @results[:water] == "cat"
-      return {:city => "Denver"}
+      return {:city => "Johannesburg"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
-      return {:city => "Tacoma"}
+        return {:city => "Oudtshoom"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "cat"
-      return {:city => "Rialto"}
+        return {:city => "Paternoster"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "cool" && @results[:water] == "nemo"
-      return {:city => "Castine"}
+      return {:city => "Matjiesfontein"}
     elsif @results[:environment] == "quiet" && @results[:preference] == "warm" && @results[:water] == "nemo"
-      return {:city => "Fairbanks"}
+      return {:city => "Dullstroom"}
     end
    end
 end
